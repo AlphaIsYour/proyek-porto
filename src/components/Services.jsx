@@ -13,7 +13,7 @@ import Generating from "./Generating";
 
 const Services = () => {
   return (
-    <Section id="how-to-use">
+    <Section id="skill">
       <div className="container">
         <Heading
           title="Generative AI made for creators."
