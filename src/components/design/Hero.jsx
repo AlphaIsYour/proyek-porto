@@ -1,4 +1,5 @@
 import { useEffect, useState } from "react";
+import PropTypes from "prop-types";
 import { MouseParallax } from "react-just-parallax";
 
 import PlusSvg from "../../assets/svg/PlusSvg";
@@ -99,3 +100,8 @@ export const BackgroundCircles = ({ parallaxRef }) => {
     </div>
   );
 };
+
+BackgroundCircles.propTypes = {
+  parallaxRef: PropTypes.object,
+};
+
